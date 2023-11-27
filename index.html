@@ -4,17 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind CSS</title>
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- we will dont use the playCDN in the production website making  -->
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
 
 </head>
-<body>
+<body class="mx-2 antialiased text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900">
     <p class="text-orange-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus incidunt possimus assumenda a quidem quas, quibusdam nemo fuga? Nisi possimus qui debitis dolorem provident corrupti iure? Unde cum sint numquam sunt eveniet!</p>
     <p class="font-sans">pranjal jain</p>
     <p class="font-serif font-thin">pranjal jain</p>
     <p class="font-mono text-yellow-500 font-bold text-3xl">pranjal jain is going to learn tailwind css</p>
     
+    <!-- we can also use the negative margin by using the - sign  -->
+    <span class="-m-5">negative margin</span>
+
+<p>we also use the <b>space between class  </b> which is most imp . It applies the margin bw the child elements </p>
+<div class="parent flex space-x-8">
+    <div class="container border-2 border-red-300">
+        hello 
+    </div>
+    <div class="container border-2 border-red-300">
+        hello 
+    </div>
+<!-- the space between prop is applies to the child elements  -->
+
+</div>
+<p>Also we use the <b>Divide Width </b> for putting the border width in the child elements</p>
 
 </body>
 </html>
