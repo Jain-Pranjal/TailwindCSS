@@ -3,3 +3,9 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+
+/* to apply the directive we write the code in the style.css usikng the @apply */
+btn{
+    @apply px-4 py-2 text-white bg-slate-700 hover:bg-slate-800  box-border hover:text-green-700 rounded-lg mx-20 my-20  hover:font-bold active:bg-green-300 focus:bg-blue-300 sm:hover:bg-amber-400 lg:hover:bg-orange-500"
+}
